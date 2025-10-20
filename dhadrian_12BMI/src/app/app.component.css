@@ -1,0 +1,44 @@
+div{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    align-items: center;
+    font-family: 'Poppins';
+    color: white;
+}
+
+.container{
+    gap: 20px;
+    min-height: 20vh;
+    margin: 20vh auto;   
+    overflow: hidden;
+}
+
+button{
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 15px;
+}
+
+img{
+    max-width: 150px;
+    max-height: 150px;
+}
+
+p{
+    font-size: 25px;
+}
+
+input, label{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 40px;
+}
+
+
+
+

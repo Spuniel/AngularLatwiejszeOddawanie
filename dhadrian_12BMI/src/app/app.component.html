@@ -1,0 +1,23 @@
+<div class="container">
+  <h1>Kalkulator BMI</h1>
+
+  <div class="dlaWzrost">
+    <label for="wzrost">Wzrost(cm):</label>
+  <input id="wzrost" type="number" [(ngModel)]="wzrost">
+  </div>
+  
+  <div class="dlaWaga">
+    <label for="waga">Waga(kg):</label>
+    <input id="waga" type="number" [(ngModel)]="waga">
+  </div>
+  
+  <button class="btn" (click)="kalkulatorBMI()">Oblicz BMI</button>
+
+  <div>
+    
+    <img [src]="sciezka" alt="bmi jako emotka z clash royale">
+    <p class="ocenaBmi">{{ocena}}</p>
+  </div>
+  
+
+</div>
